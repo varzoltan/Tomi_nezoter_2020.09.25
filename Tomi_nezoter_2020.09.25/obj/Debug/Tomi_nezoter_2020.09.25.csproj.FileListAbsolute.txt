@@ -1,0 +1,7 @@
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\bin\Debug\Tomi_nezoter_2020.09.25.exe.config
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\bin\Debug\Tomi_nezoter_2020.09.25.exe
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\bin\Debug\Tomi_nezoter_2020.09.25.pdb
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\obj\Debug\Tomi_nezoter_2020.09.25.csprojAssemblyReference.cache
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\obj\Debug\Tomi_nezoter_2020.09.25.csproj.CoreCompileInputs.cache
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\obj\Debug\Tomi_nezoter_2020.09.25.exe
+C:\Users\Rendszergazda\Documents\GitHub\Tomi_nezoter_2020.09.25\Tomi_nezoter_2020.09.25\obj\Debug\Tomi_nezoter_2020.09.25.pdb
