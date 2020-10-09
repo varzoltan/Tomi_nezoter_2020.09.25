@@ -95,24 +95,26 @@ namespace Tomi_nezoter_2020._09._25
             /*int csere,pozicio = -1;
             int[] maxkat = {egy,ketto,harom,negy,ot};
             int[] sorba = new int[maxkat.Length];
+            string[] hany = {1,2,3,4,5};
             Console.WriteLine();
             for (int i = 0; i < maxkat.Length; i++)
             {
                 Console.Write($"{maxkat[i]} ");
             }
-            for (int i = 0;i<maxkat.Length-1;i++)
+            for(int j = 0;j<hany.length;j++)
             {
-                for (int k=i+1;k<maxkat.Length;k++)
+                szamlal = 0;
+                for (int i = 0;i<n;i++)
                 {
-                    if (maxkat[i] < maxkat[k]) 
+                    for (int k=0;k<20;k++)
                     {
-                        csere = maxkat[i];
-                        maxkat[i] = maxkat[k];
-                        maxkat[k] = csere;
-                        pozicio = k;
+                        if (kategoria[i].Substring(k,1) == hany[j]) 
+                        {
+                            szamlal++;
+                        }
                     }
                 }
-                sorba[i] = pozicio;
+                hany[j] = szamlal.ToString();
             }
             Console.WriteLine();
             for (int i=0;i<maxkat.Length;i++)
@@ -158,7 +160,31 @@ namespace Tomi_nezoter_2020._09._25
             }
 
             //5.feladat
-            Console.WriteLine(egy*5000+ketto*4000+harom*3000+negy*2000+ot*1500);  
+            Console.WriteLine(egy*5000+ketto*4000+harom*3000+negy*2000+ot*1500);
+
+            //6.feladat
+            int egyedul = 0;
+            for (int i = 0;i<n;i++)
+            {
+                if (foglaltsag[i].Substring(0, 2) == "ox")
+                {
+                    egyedul++;
+                }
+                if (foglaltsag[i].Substring(17, 2) == "xo")
+                {
+                    egyedul++;
+                }
+                for (int z =0;z<17;z++)
+                {
+
+                    if (foglaltsag[i].Substring(z,3) =="xox")
+                    {
+                        egyedul++;
+                    }
+
+                }
+            }
+            Console.WriteLine($"6.Feladat: {egyedul} egyedüli szék van.");
             Console.ReadKey();
         }
     }
