@@ -185,6 +185,26 @@ namespace Tomi_nezoter_2020._09._25
                 }
             }
             Console.WriteLine($"6.Feladat: {egyedul} egyedüli szék van.");
+
+            //7.feladat
+            StreamWriter ir = new StreamWriter(@"C:\Users\Rendszergazda\Downloads\szabad.txt");
+            for (int i = 0;i<n;i++)
+            {
+                for (int j = 0;j<20;j++)
+                {
+                    
+                    if (foglaltsag[i][j] == 'o')
+                    {
+                        ir.Write(kategoria[i][j]);
+                    }
+                    else
+                    {
+                        ir.Write("x");
+                    }                  
+                }
+                ir.WriteLine();
+            }
+            ir.Close();
             Console.ReadKey();
         }
     }
